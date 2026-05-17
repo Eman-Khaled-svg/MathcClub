@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import colleges from '../data/Collages';
+import collages from "../data/collages";
 
 function Home() {
 
@@ -88,7 +88,7 @@ function Home() {
           </div>
 
           <div className="row g-4 justify-content-center">
-            {colleges.map((college) => (
+            {collages.map((college) => (
               <div key={college.id} className="col-md-6 col-lg-4">
                 <Link to={`/college/${college.id}`} className="text-decoration-none">
                   <div className="card h-100 shadow-lg border-0 overflow-hidden transition-transform hover:shadow-2xl hover:-translate-y-2">
