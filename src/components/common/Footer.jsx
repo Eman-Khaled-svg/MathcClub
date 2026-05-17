@@ -82,7 +82,7 @@ function Footer() {
         {/* Copyright */}
         <hr className="my-5 border-secondary" />
         <div className="text-center text-white-50 small">
-          <p className="mb-0">© 2024 منصة التعليم الهندسي. جميع الحقوق محفوظة.</p>
+          <p className="mb-0">© 2026 منصة التعليم الهندسي. جميع الحقوق محفوظة.</p>
         </div>
       </div>
     </footer>
